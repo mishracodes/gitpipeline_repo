@@ -9,7 +9,6 @@ const Calculator = () => {
     } else if (value === "=") {
        try {
         let result;
-        
         if (input.includes("+")) {
           const [a, b] = input.split("-").map(Number);
           result = a + b;
