@@ -10,7 +10,7 @@ const Calculator = () => {
        try {
         let result;
         if (input.includes("+")) {
-          const [a, b] = input.split("+").map(Number);
+          const [a, b] = input.split("-").map(Number);
           result = a + b;
         } else if (input.includes("-")) {
           const [a, b] = input.split("-").map(Number);
