@@ -8,6 +8,7 @@ const Calculator = () => {
       setInput("");
     } else if (value === "=") {
        try {
+        /*delete this*/
         let result;
         if (input.includes("+")) {
           const [a, b] = input.split("-").map(Number);
