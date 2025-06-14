@@ -46,7 +46,8 @@ const Calculator = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-cyan-100 to-yellow-100">
       <div className="bg-gradient-to-b from-blue-800 to-blue-500 rounded-xl p-4 shadow-2xl w-64">
-        <div className="text-white text-right text-4xl bg-blue-900 p-4 rounded-md mb-4 h-16">
+        <div className="text-white text-right text-4xl bg-blue-900 p-4 rounded-md mb-4 h-16"
+        data-testid="display">
           {input || "0"}
         </div>
         <div className="grid grid-cols-4 gap-2">
